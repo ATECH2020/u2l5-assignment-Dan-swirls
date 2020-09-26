@@ -4,7 +4,8 @@ public class HowFarAway
 {
     public static void main(String[] args)
     {
-        
+      Scanner input = new Scanner(System.in);
+
        // variable inits
        System.out.println("Enter the latitude of the starting location: "); 
        double startLat = input.nextDouble();
